@@ -13,19 +13,6 @@ import About from './pages/About';
 import Login from './auth/Login';
 export default {
     components: { MainHeader, MainFooter, About, Login },
-    metaInfo(){
-    return {
-        title: 'Laravel App',
-        meta: [
-            {
-                name:'keywords', content:'quickstart, laravel vue'
-            },
-            {
-                name: 'description', content: 'An awesome quick start pack for Laravel, VueJs'
-            }
-        ]
-    }
-    }
 }
 </script>
 

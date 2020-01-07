@@ -1949,18 +1949,6 @@ __webpack_require__.r(__webpack_exports__);
     MainFooter: _MainFooter__WEBPACK_IMPORTED_MODULE_1__["default"],
     About: _pages_About__WEBPACK_IMPORTED_MODULE_2__["default"],
     Login: _auth_Login__WEBPACK_IMPORTED_MODULE_3__["default"]
-  },
-  metaInfo: function metaInfo() {
-    return {
-      title: 'Laravel App',
-      meta: [{
-        name: 'keywords',
-        content: 'quickstart, laravel vue'
-      }, {
-        name: 'description',
-        content: 'An awesome quick start pack for Laravel, VueJs'
-      }]
-    };
   }
 });
 
@@ -2047,8 +2035,11 @@ __webpack_require__.r(__webpack_exports__);
     return {
       title: 'About Page',
       meta: [{
+        name: 'keywords',
+        content: 'quickstart, about page'
+      }, {
         name: 'description',
-        content: 'Description for About Page'
+        content: 'An awesome description for about page'
       }]
     };
   }

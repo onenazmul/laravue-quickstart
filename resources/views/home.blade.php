@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel')}}</title>
+    <meta name="keywords" content="quick start, vuelaravel">
+    <meta name="description" content="Meta description for the application">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>

@@ -14,9 +14,13 @@ metaInfo(){
         title: 'About Page',
         meta: [
             {
-                name: 'description', content: 'Description for About Page'
+                name:'keywords', content:'quickstart, about page'
+            },
+            {
+                name: 'description', content: 'An awesome description for about page'
             }
         ]
+
     }
     }
 }
