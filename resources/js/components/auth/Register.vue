@@ -8,7 +8,11 @@
 
 <script>
 export default {
-
+    metaInfo(){
+        return {
+            title: 'Register Now'
+        }
+    }
 }
 </script>
 

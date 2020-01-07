@@ -9,7 +9,16 @@
 
 <script>
 export default {
-
+metaInfo(){
+    return {
+        title: 'About Page',
+        meta: [
+            {
+                name: 'description', content: 'Description for About Page'
+            }
+        ]
+    }
+    }
 }
 </script>
 

@@ -12,7 +12,11 @@
 
 <script>
 export default {
-
+    metaInfo(){
+        return {
+            title: 'Login Page'
+        }
+    }
 }
 </script>
 
