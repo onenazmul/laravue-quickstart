@@ -9,19 +9,18 @@
 
 <script>
 export default {
-metaInfo(){
-    return {
-        title: 'About Page',
-        meta: [
-            {
-                name:'keywords', content:'quickstart, about page'
-            },
-            {
-                name: 'description', content: 'An awesome description for about page'
-            }
-        ]
-
-    }
+    metaInfo(){
+        return {
+            title: 'About Page',
+            meta: [
+                {
+                    name:'keywords', content:'quickstart, about page'
+                },
+                {
+                    name: 'description', content: 'An awesome description for about page'
+                }
+            ]
+        }
     }
 }
 </script>

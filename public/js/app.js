@@ -1949,6 +1949,18 @@ __webpack_require__.r(__webpack_exports__);
     MainFooter: _MainFooter__WEBPACK_IMPORTED_MODULE_1__["default"],
     About: _pages_About__WEBPACK_IMPORTED_MODULE_2__["default"],
     Login: _auth_Login__WEBPACK_IMPORTED_MODULE_3__["default"]
+  },
+  metaInfo: function metaInfo() {
+    return {
+      title: 'Laravel App Homepage',
+      meta: [{
+        name: 'keywords',
+        content: 'quickstart, home page'
+      }, {
+        name: 'description',
+        content: 'An awesome description for home page'
+      }]
+    };
   }
 });
 

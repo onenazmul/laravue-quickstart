@@ -13,6 +13,19 @@ import About from './pages/About';
 import Login from './auth/Login';
 export default {
     components: { MainHeader, MainFooter, About, Login },
+    metaInfo(){
+        return {
+            title: 'Laravel App Homepage',
+            meta: [
+                {
+                    name:'keywords', content:'quickstart, home page'
+                },
+                {
+                    name: 'description', content: 'An awesome description for home page'
+                }
+            ]
+        }
+    }
 }
 </script>
 
